@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 .App-logo {
@@ -12,14 +13,19 @@
   height: 150px;
   padding: 20px;
   color: white;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 .App-title {
   font-size: 1.5em;
+  font-family: 'Nanum Myeongjo', serif;
+
 }
 
 .App-intro {
   font-size: large;
+  font-family: 'Nanum Myeongjo', serif;
+
 }
 
 @keyframes App-logo-spin {

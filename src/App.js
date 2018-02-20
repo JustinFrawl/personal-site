@@ -19,16 +19,16 @@ class App extends Component {
         </Container>
 
         <Grid>
-        <Segment>
-        <Grid.Column width={2}>
-          <Menu pointing secondary size='massive'>
-            <Menu.Item as='a'><Link to="/bio">Bio</Link></Menu.Item>
-            <Menu.Item as='a'><Link to="/projects">Projects</Link></Menu.Item>
-            <Menu.Item as='a'><a href ='https://github.com/JustinFrawl'>Github</a></Menu.Item>
-            <Menu.Item as='a'><Link to="/contact">Contact Info</Link></Menu.Item>
-          </Menu>
-          </Grid.Column>
-          </Segment>
+
+        <Menu pointing  floated='center'>
+        <Menu.Item as='a'><Link to="/bio">Bio</Link></Menu.Item>
+        <Menu.Item as='a'><Link to="/projects">Projects</Link></Menu.Item>
+        <Menu.Item as='a'><a href ='https://github.com/JustinFrawl'>Github</a></Menu.Item>
+        <Menu.Item as='a' position='left'><Link to="/contact">Contact Info</Link></Menu.Item>
+        </Menu>
+
+
+
       </Grid>
       <Switch>
       <Route path="/bio" component={Bio} />
