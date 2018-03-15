@@ -20,7 +20,7 @@ class App extends Component {
 
         <Grid>
 
-        <Menu pointing  floated='center'>
+        <Menu pointing floated='center'>
         <Menu.Item as='a'><Link to="/bio">Bio</Link></Menu.Item>
         <Menu.Item as='a'><Link to="/projects">Projects</Link></Menu.Item>
         <Menu.Item as='a'><a href ='https://github.com/JustinFrawl'>Github</a></Menu.Item>
